@@ -29,7 +29,7 @@ function myFunction() {
     fixednav.classList.remove("fixed");
 
     document.getElementById("image").classList.remove("size");
-    document.getElementById("image").src="/images/spinx-logo-white.png";
+    document.getElementById("image").src="images/spinx-logo-white.png";
     document.getElementById("n1").classList.remove("size");
     document.getElementById("link1").classList.remove("color");
     document.getElementById("n2").classList.remove("size");
