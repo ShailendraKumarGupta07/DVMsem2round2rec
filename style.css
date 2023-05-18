@@ -790,8 +790,7 @@ margin-bottom: 150px;
 #section8 #slide2 .logos img{
     border-left: 1px solid #909090;
     border-right: 1px solid #909090;
-    white-space: nowrap;
-    transform: translateX(0);
+  
 
 }
 #section8 #slide3{
