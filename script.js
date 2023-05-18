@@ -9,7 +9,7 @@ function myFunction() {
   if (window.pageYOffset > fixed) {
     fixednav.classList.add("fixed");
     document.getElementById("image").classList.add("size");
-    document.getElementById("image").src="/images/spinx2.png";
+    document.getElementById("image").src="images/spinx2.png";
     document.getElementById("n1").classList.add("size");
     document.getElementById("link1").classList.add("color");
     document.getElementById("n2").classList.add("size");
