@@ -408,7 +408,7 @@ function Scroll() {
   var scrollPosition = window.pageYOffset ;
   var scrollDistance = scrollPosition - Scroll.lastScrollPosition; //(scrollDistance can be positive or negative)
 
-  carousel.style.transform = 'translateX(' + (0.3*(-scrollDistance)) + (200) +'px)';
+  carousel.style.transform = 'translateX(' + (0.3*(-scrollDistance))  +'px)';
   
 }
 
@@ -436,7 +436,7 @@ function Scroll3() {
   var scrollPosition3 = window.pageYOffset 
   var scrollDistance3 = scrollPosition3 - Scroll3.lastScrollPosition; //(scrollDistance can be positive or negative)
 
-  carousel3.style.transform = 'translateX(' + (0.3*(-scrollDistance3)) + (200) +'px)';
+  carousel3.style.transform = 'translateX(' + (0.3*(-scrollDistance3))  +'px)';
 
 }
 
