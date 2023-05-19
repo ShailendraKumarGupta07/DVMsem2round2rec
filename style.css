@@ -1,22 +1,18 @@
 body{
     background-color: #16171a;
     margin: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
+    width: 100vw;
+
     
 }
-/* #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11, #section12, #section13, #section14, #section15, #section16, #access
-#back-to-top-btn{
-    display: none!important;
+div{
+    border: 2px solid red
+    ;
 }
-#section15{
-    display: none;}
-#section14{
-    display: none;}
-#section13{
-    display: none;}
-#section11{
-    display: none;} */
-
+#navbar, .text, #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11, #section12, #section13, #section14, #section15, #section16{
+    width: 100vw;
+} 
 /*  custom scrollbar */
 
 ::-webkit-scrollbar {
@@ -82,11 +78,11 @@ body{
 #menu{
     width: 35px;
     height: 30px;
-    margin:60px 20px 40px 40px;
+    margin:60px 20px 40px -45px;
     cursor: pointer;
     z-index: 104;
     position: absolute;
-    display: none;
+    /* display: none; */
 }
 
 .bar{
@@ -207,6 +203,7 @@ overflow: hidden;
 #nav{
     display: flex;
     z-index: 50;
+    width: 100vw;
     
 }
 
@@ -248,7 +245,7 @@ overflow: hidden;
 
 
 #n1{
-    margin-left: 630px;
+    margin-left: 579px;
     margin-right: 50px;
     margin-top: 15px;
 }
@@ -320,7 +317,7 @@ overflow: hidden;
     
     top: 0;
     height: 80px;
-    width: 100%;
+    width: 100vw;
     background-color: white;
     
   }
@@ -802,7 +799,6 @@ margin-bottom: 150px;
 #section8 #slide2 .logos img{
     border-left: 1px solid #909090;
     border-right: 1px solid #909090;
-  
 
 }
 #section8 #slide3{
@@ -965,9 +961,11 @@ margin-left: 130px;
 
 #section10 .slidebar1{
     background-color: white;
+    overflow-x: hidden;
 }
 #section10 .slidebar2{
     background-color: black;
+    overflow-x: hidden;
 }
 
 #section10 #slide4 .logos img{
@@ -1194,9 +1192,10 @@ margin-left: 130px;
 /* section12:learn */
 
 #section12{
-    margin-left: 130px;
+    margin-left: -2px;
     margin-right: 130px;
     cursor: none!important;
+    width: 100vw;
     
 }
 
@@ -1211,6 +1210,7 @@ margin-left: 130px;
 }
 #section12 .learn p{
     margin-bottom: 40px;
+    padding-left: 150px;
 }
 #section12 .learn1, .learn2, .learn3{
 border-top: 1px  solid#909090;
@@ -1226,16 +1226,19 @@ border-bottom: 1px solid #909090;
     font-size: 1.5rem;
     margin-top: 60px;
     margin-bottom: 60px;
+    padding-left: 150px;
     
 }
 #section12 a .x2{
     margin-top: 60px;
     margin-bottom: 60px;
+    padding-left: 150px;
     
 }
 #section12 a .x3{
     margin-top: 60px;
     margin-bottom: 60px;
+    padding-left: 150px;
     
 }
 #section12  .x2{
@@ -1243,6 +1246,7 @@ border-bottom: 1px solid #909090;
     text-decoration: none;
     text-decoration-line: none;
     font-size: 3rem;
+    padding-left: 150px;
     
 }
 #section12 a .x3{
@@ -1250,6 +1254,7 @@ border-bottom: 1px solid #909090;
     text-decoration: none;
     text-decoration-line: none;
     font-size: 1.5rem;
+    padding-left: 150px;
 }
 #section12 .learn4 a{
     font-size:2rem;
@@ -1257,6 +1262,7 @@ border-bottom: 1px solid #909090;
     text-decoration-thickness:1px ;
     text-underline-offset: 2px;
     color: white;
+    padding-left: 150px;
 }
 #section12 .learn4{
     margin-top: 60px;
@@ -1277,6 +1283,7 @@ border-bottom: 1px solid #909090;
     display: flex;
     margin-top: 200px;
     height: 110vh;
+    width: 100vw;
 
 }
 .a8{
