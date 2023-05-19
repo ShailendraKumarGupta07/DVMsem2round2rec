@@ -1,15 +1,15 @@
 body{
     background-color: #16171a;
     margin: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     width: 100vw;
 
     
 }
 /* div{
-    border: 2px solid red
-    ; */
-/* } */
+    border: 1px solid red
+    ;
+} */
 #navbar, .text, #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11, #section12, #section13, #section14, #section15, #section16{
     width: 100vw;
 } 
@@ -78,11 +78,11 @@ body{
 #menu{
     width: 35px;
     height: 30px;
-    margin:60px 20px 40px -45px;
+    margin:55px 45px 40px -45px;
     cursor: pointer;
     z-index: 104;
     position: absolute;
-    /* display: none; */
+    display: none;
 }
 
 .bar{
@@ -120,7 +120,7 @@ body{
 }
 
 #hide{
-    width: 500vw;
+    width: 100vw;
     height: 80vh;
     /* display: none; */
     position: absolute;
@@ -245,8 +245,8 @@ overflow: hidden;
 
 
 #n1{
-    margin-left: 579px;
-    margin-right: 50px;
+    margin-left: 685px;
+    margin-right: 30px;
     margin-top: 15px;
 }
 
@@ -262,19 +262,19 @@ overflow: hidden;
 
 
  #n2{
-    margin-right: 50px;
+    margin-right: 30px;
     margin-top: 15px;
 }
  #n3{
-    margin-right: 50px;
+    margin-right: 30px;
     margin-top: 15px;
 }
  #n4{
-    margin-right: 50px;
+    margin-right: 30px;
     margin-top: 15px;
 }
  #n5{
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 #n5 button{
@@ -440,6 +440,7 @@ overflow: hidden;
 
 #section2{
     margin-top: 150px;
+    width: 100vw;
 }
 .pic2 img{
     display: flex;
