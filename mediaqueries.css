@@ -1,191 +1,6 @@
-@media screen and (max-width:1460px) and (min-width:1275px) {
-    #n1{
-        margin-left: 550px;
-    }
-    #section1 .a1{
-        margin-left: 127px;
-    }
-    #section1 .b1{
-        font-size:3.25rem ;
-    }
-    #section1 .c1{
-        font-size:2.25rem ;
-    }
-    .pic1 img{
-        margin-left: 320px;
-        height: 41%;
-        width: 19%;
-    }
-    #section2 .pic2 img{
-        margin-left: 320px;
-        height: 41%;
-        width: 19%;
-    }
-    #section2 .pic3 img{
-        margin-left:900px;
-        height: 41%;
-        width: 19%;
-    }
-    #section2 .a2{
-        font-size: 3rem;
-    }
-    .grid{
-        
-    }
-    #section3 .gridcontent{
-        padding-left: 75px;
-        padding-right: 75px;
-    }
-}
+/* global media ueries */
 
-
-@media screen and (max-width:1275px) and (min-width:1130px) {
-    #n1{
-        margin-left: 500px;
-    }
-    #section1 .a1{
-        margin-left: 177px;
-    }
-    #section1 .b1{
-        font-size:3rem ;
-    }
-    #section1 .c1{
-        font-size:2rem ;
-        margin-top: 100px;
-    }
-    .pic1 img{
-        margin-left: 310px;
-        height: 40%;
-        width: 17%;
-    }
-    #section2{
-        margin-bottom: 150px;
-    }
-    #section2 .pic2 img{
-        margin-left: 260px;
-        height: 41%;
-        width: 19%;
-    }
-    #section2 .pic3 img{
-        margin-left:750px;
-        height: 35%;
-        width: 16%;
-    }
-    #section2 .a2{
-        font-size: 2.7rem;
-    }
-    #section3 .a3{
-        margin-left: 157px;
-    }
-    #section3 .gridcontent{
-        padding-left: 50px;
-        padding-right: 50px;
-    }
-    #section3 .grid{
-        margin-left:200px;
-    }
-    
-}
-@media screen and (max-width:1130px) and (min-width:1020px) {
-    #n1{
-        margin-left: 450px;
-    }
-    #section1 .a1{
-        margin-left: 197px;
-    }
-    #section1 .b1{
-        font-size:3rem ;
-    }
-    #section1 .c1{
-        font-size:2rem ;
-        margin-top: 100px;
-    }
-    .pic1 img{
-        margin-left: 310px;
-        height: 40%;
-        width: 17%;
-    }
-    #section2{
-        margin-bottom: 250px;
-    }
-    #section2 .pic2 img{
-        margin-left: 260px;
-        height: 25%;
-        width: 13%;
-        margin-top: 250px;
-    }
-    #section2 .pic3 img{
-        margin-left:750px;
-        height: 25%;
-        width: 13%;
-    }
-    #section2 .a2{
-        font-size: 2rem;
-    }
-    #section3 .gridcontent{
-        padding-left: 45px;
-        padding-right: 45px;
-    }
-    #section3 .a3{
-        margin-left: 157px;
-    }
-    #section3 .grid{
-        margin-left:200px;
-    }
-    
-}
-@media screen and (max-width:1020px) and (min-width:950px) {
-    #n1{
-        margin-left: 400px;
-    }
-    #section1 .a1{
-        margin-left: 197px;
-    }
-    #section1 .b1{
-        font-size:3rem ;
-    }
-    #section1 .c1{
-        font-size:2rem ;
-        margin-top: 100px;
-    }
-    .pic1 img{
-        margin-left: 310px;
-        height: 38%;
-        width: 18%;
-    }
-    #section2{
-        margin-bottom: 250px;
-    }
-    #section2 .pic2 img{
-        margin-left: 260px;
-        height: 25%;
-        width: 13%;
-        margin-top: 250px;
-    }
-    #section2 .pic3 img{
-        margin-left:700px;
-        height: 25%;
-        width: 13%;
-    }
-    #section2 .a2{
-        font-size: 2rem;
-    }
-    #section3 .gridcontent{
-        padding-left: 35px;
-        padding-right: 35px;
-    }
-    .a3{
-        font-size: 2rem;
-    }
-
-    #section3 .a3{
-        margin-left: 157px;
-    }
-    #section3 .grid{
-        margin-left:200px;
-    }
-}
-@media screen and (max-width:950px) and (min-width:0px) {
+@media screen and (max-width:900px) and (min-width:0px){
     .right{
         display: none;
     }
@@ -193,670 +8,1817 @@
         display: block;
         
     }
-    #hide{
+}
+@media screen and (max-width:1500px) and (min-width:0px){
+    #navbar, .text, #section1, #section2, #section3, #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11, #section12, #section13, #section14, #section15, #section16{
         width: 100vw;
-        height: 80vh;
-    }
-
-
+    } 
 }
 
-@media screen and (max-width:950px) and (min-width:860px){
-    #menu{
-        margin-left: 1000px;
+@media screen and (max-width:1500px) and (min-width:1250px){
+    #section4{
+        width: 100vw;
     }
-    #hide{
-        width: 153vw;
-        height: 80vh;
+    #section4 #s1{
+        font-size: 18px;
     }
-    #section1 .a1{
-        margin-left: 237px;
+    #section4 #s2{
+        font-size:2.25rem;
     }
-    #section1 .b1{
-        font-size:3rem ;
+    #section4 .f4{
+        height: 730px;
+    width: 829px;
     }
-    #section1 .c1{
-        font-size:2rem ;
-        margin-top: 100px;
+    #section4 .g4 img{
+        height: 517px;
+      width: 614px;
     }
-    .pic1 img{
-        margin-left: 310px;
-        height: 38%;
-        width: 30%;
-    }
-    #section2{
-        margin-bottom: 250px;
-    }
-    #section2 .pic2 img{
-        margin-left: 230px;
-        height: 25%;
-        width: 15%;
-        margin-top: 250px;
-    }
-    #section2 .pic3 img{
-        margin-left:600px;
-        height: 23%;
-        width: 15%;
-    }
-    #section2 .a2{
-        font-size: 2rem;
-    }
-    #section3 .gridcontent{
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    .a3{
-        font-size: 2rem;
-    }
-    #section3 .a3{
-        margin-left: 187px;
-    }
-    #section3 .grid{
-        margin-left:250px;
-    }
+
 }
-@media screen and (max-width:860px) and (min-width:790px){
-    #menu{
-        margin-left: 900px;
+@media screen and (max-width:1250px) and (min-width:1150px){
+    #section4 #s1{
+        font-size: 18px;
     }
-    #hide{
-        width: 153vw;
-        height: 80vh;
+    #section4 #s2{
+        font-size:2rem;
     }
-    #section1 .a1{
-        margin-left: 237px;
+    #section4 .f4{
+        height: 705px;
+    width: 782px;
     }
-    #section1 .b1{
-        font-size:3rem ;
+    #section4 .g4 img{
+        height: 475px;
+      width: 560px;
     }
-    #section1 .c1{
-        font-size:2rem ;
-        margin-top: 100px;
+
+}
+@media screen and (max-width:1150px) and (min-width:1050px){
+    #section4 #s1{
+        font-size: 15px;
     }
-    .pic1 img{
-        margin-left: 300px;
-        height: 42%;
-        width: 35%;
+    #section4 #s2{
+        font-size:1.75rem;
     }
-    #section2{
-        margin-left: 
-        150px;
-        margin-bottom: 250px;
+    #section4 .f4{
+        height: 566px;
+        width: 635px;
     }
-    #section2 .pic2 img{
-        margin-left: 190px;
-        height: 25%;
-        width: 15%;
-        margin-top: 250px;
+    #section4 .g4 img{
+        height: 414px;
+      width: 482px;
+      
     }
-    #section2 .pic3 img{
-        margin-left:550px;
-        height: 23%;
-        width: 15%;
+    #section4 .g4{
+        margin-top: 75px;
+        margin-left: 66px;
     }
-    #section2 .a2{
-        font-size: 2rem;
+
+}
+@media screen and (max-width:1050px) and (min-width:930px){
+    #section4 #s1{
+        font-size: 12px;
     }
-    #section3 .gridcontent{
-        padding-left: 25px;
-        padding-right:25px;
+    #section4 #s2{
+        font-size:1.5rem;
     }
-    .a3{
-        font-size: 2rem;
+    #section4 .f4{
+        height: 526px;
+        width: 604px;
     }
-    #section3 .a3{
-        margin-left: 330px;
+    #section4 .g4 img{
+        height: 414px;
+      width: 482px;
+      
     }
-    #section3 .grid{
-        margin-left:300px;
+    #section4 .g4{
+        margin-top: 56px;
+        margin-left: 56px;
+    }
+
+}
+@media screen and (max-width:930px) and (min-width:800px){
+    #section4 #s1{
+        font-size: 9px;
+    }
+    #section4 #s2{
+        font-size:1.25rem;
+    }
+    #section4 .f4{
+        height: 490px;
+        width: 509px;
+    }
+    #section4 .g4 img{
+        height: 357px;
+      width: 391px;
+      
+    }
+    #section4 .g4{
+        margin-top: 56px;
+        margin-left: 56px;
+    }
+
+}
+@media screen and (max-width:800px) and (min-width:600px){
+    
+    #section4 .c4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    #section4 #s1{
+        font-size: 15px;
+    }
+    #section4 #s2{
+        font-size:1.5rem;
+    }
+    #section4 .d4{
+        width: 245px;
+        margin-right: 83px;
+    }
+    #section4 .f4{
+        height: 405px;
+        width: 435px;
+    }
+    #section4 .g4 img{
+        height: 357px;
+      width: 391px;
+      
+    }
+    #section4 .g4{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+}
+@media screen and (max-width:600px) and (min-width:350px){
+    
+    #section4 .b4{
+        font-size: 1rem;
+        text-align: right;
+        width: 85vw;
+ 
+    }
+    #section4 .b4 p{
+        
+        margin-left: 170px;
+    }
+    #section4 .c4{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap:wrap;
+        align-items: center;
     }
     
+    #section4 #s1{
+        font-size: 12px;
+        margin-top: 0;
+    }
+    #section4 #s2{
+        margin-top: 0;
+        font-size:1rem;
+    }
+    #section4 .d4{
+        width: 245px;
+        margin-right: 83px;
+    }
+    #section4 .f4{
+        height: 250px;
+        width: 298px;
+        margin-right: 0px;
+    }
+    #section4 .g4 img{
+        height: 200px;
+      width: 250px;
+      
+    }
+    #section4 .g4{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
 }
-@media screen and (max-width:790px) and (min-width:720px){
-    #menu{
-        margin-left: 800px;
+/* @media screen and (max-width:1500px) and (min-width:1250px){
+    #section5{
+        width: 100vw;
     }
-    #hide{
-        width: 153vw;
-        height: 80vh;
+    #section5 #s3{
+        font-size: 18px;
     }
-    #section1 .a1{
-        margin-left: 267px;
+    #section5 #s4{
+        font-size:2.25rem;
     }
-    #section1 .b1{
-        font-size:3rem ;
+    #section5 .f5{
+        height: 730px;
+    width: 829px;
     }
-    #section1 .c1{
-        font-size:2rem ;
-        margin-top: 100px;
+    #section5 .g5 img{
+        height: 517px;
+      width: 614px;
     }
-    .pic1 img{
-        margin-left: 300px;
-        height: 45%;
-        width: 38%;
-    }
-    #section2{
-        margin-left: 
-        150px;
-        margin-bottom: 250px;
-    }
-    #section2 .pic2 img{
-        margin-left: 150px;
-        height: 25%;
-        width: 15%;
-        margin-top: 250px;
-    }
-    #section2 .pic3 img{
-        margin-left:550px;
-        height: 23%;
-        width: 15%;
-    }
-    #section2 .a2{
-        font-size: 2rem;
-    }
-    #section3 .gridcontent{
-        padding-left: 25px;
-        padding-right: 25px;
-    }
-    .a3{
-        font-size: 2rem;
-    }
-    /* #section3 .grid{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-    } */
-    #section3 .a3{
-        margin-left: 330px;
-    }
-    #section3 .grid{
-        margin-left:300px;
-    }
+
 }
-@media screen and (max-width:720px) and (min-width:610px){
-    #menu{
-        margin-left: 650px;
+@media screen and (max-width:1250px) and (min-width:1150px){
+    #section5 #s3{
+        font-size: 18px;
     }
-    .text2 h3{
-        margin-left:70px;
-        font-size: 4rem;
+    #section5 #s4{
+        font-size:2rem;
     }
-    #hide{
-        width: 153vw;
-        height: 80vh;
+    #section5 .f5{
+        height: 705px;
+    width: 782px;
     }
-    #section1 .a1{
-        margin-left: 207px;
+    #section5 .g5 img{
+        height: 475px;
+      width: 560px;
     }
-    #section1 .b1{
-        font-size:3rem ;
+
+}
+@media screen and (max-width:1150px) and (min-width:1050px){
+    #section5 #s3{
+        font-size: 15px;
     }
-    #section1 .c1{
-        font-size:2rem ;
-        margin-top: 100px;
-        margin-left: 50px;
+    #section5 #s4{
+        font-size:1.75rem;
     }
-    .pic1 img{
-        margin-left: 260px;
-        height: 48%;
-        width: 40%;
+    #section5 .f5{
+        height: 566px;
+        width: 635px;
     }
-    #section2{
-        margin-left: 
-        180px;
-        margin-bottom: 250px;
+    #section5 .g5 img{
+        height: 414px;
+      width: 482px;
+      
     }
-    #section2 .pic2 img{
-        margin-left: 100px;
-        height: 23%;
-        width: 15%;
-        margin-top: 250px;
+    #section5 .g5{
+        margin-top: 75px;
+        margin-left: 66px;
     }
-    #section2 .pic3 img{
-        margin-left:520px;
-        height: 21%;
-        width: 15%;
+
+}
+@media screen and (max-width:1050px) and (min-width:930px){
+    #section5 #s3{
+        font-size: 12px;
     }
-    #section2 .a2{
-        font-size: 1.7rem;
+    #section5 #s4{
+        font-size:1.5rem;
     }
-    #section2 a{
-        text-underline-offset: 4px;
+    #section5 .f5{
+        height: 526px;
+        width: 604px;
     }
-    #section3 .gridcontent{
-        padding-left: 25px;
-        padding-right: 25px;
+    #section5 .g5 img{
+        height: 414px;
+      width: 482px;
+      
     }
-    .a3{
-        font-size: 2rem;
+    #section5 .g5{
+        margin-top: 56px;
+        margin-left: 56px;
     }
-    /* #section3 .grid{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-    } */
-    #section3 .a3{
-        margin-left: 330px;
+
+}
+@media screen and (max-width:930px) and (min-width:800px){
+    #section5 #s3{
+        font-size: 9px;
     }
-    #section3 .grid{
-        margin-left:300px;
+    #section5 #s4{
+        font-size:1.25rem;
+    }
+    #section5 .f5{
+        height: 490px;
+        width: 509px;
+    }
+    #section5 .g5 img{
+        height: 357px;
+      width: 391px;
+      
+    }
+    #section5 .g5{
+        margin-top: 56px;
+        margin-left: 56px;
+    }
+
+}
+@media screen and (max-width:800px) and (min-width:600px){
+    
+    #section5 .c5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    #section5 #s3{
+        font-size: 15px;
+    }
+    #section5 #s4{
+        font-size:1.5rem;
+    }
+    #section5 .d5{
+        width: 245px;
+        margin-right: 83px;
+    }
+    #section5 .f5{
+        height: 405px;
+        width: 435px;
+    }
+    #section5 .g5 img{
+        height: 357px;
+      width: 391px;
+      
+    }
+    #section5 .g5{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+}
+@media screen and (max-width:600px) and (min-width:350px){
+    
+
+    #section5 .c5{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap:wrap;
+        align-items: center;
     }
     
+    #section5 #s3{
+        font-size: 12px;
+        margin-top: 0;
+    }
+    #section5 #s4{
+        margin-top: 0;
+        font-size:1rem;
+    }
+    #section5 .d5{
+        width: 245px;
+        margin-right: 83px;
+    }
+    #section5 .f5{
+        height: 250px;
+        width: 298px;
+        margin-right: 0px;
+    }
+    #section5 .g5 img{
+        height: 200px;
+      width: 250px;
+      
+    }
+    #section5 .g5{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
 }
-@media screen and (max-width:610px) and (min-width:575px){
-    #menu{
-        margin-left: 600px;
+@media screen and (max-width:1500px) and (min-width:1250px){
+    #section6{
+        width: 100vw;
     }
-    .text-box h1{
-        font-size: 9rem;
-        margin-top: 73px;
+    #section6 #s5{
+        font-size: 18px;
     }
-    .text2 h3{
-        margin-left:70px;
-        font-size: 4rem;
+    #section6 #s6{
+        font-size:2.25rem;
     }
-    #hide{
-        width: 153vw;
-        height: 80vh;
+    #section6 .f6{
+        height: 730px;
+    width: 829px;
     }
-    #section2{
-        margin-left: 
-        150px;
+    #section6 .g6 img{
+        height: 517px;
+      width: 614px;
     }
-    #section1 .a1{
-        margin-left: 207px;
+
+}
+@media screen and (max-width:1250px) and (min-width:1150px){
+    #section6 #s5{
+        font-size: 18px;
     }
-    #section1 .b1{
-        font-size:3rem ;
-        margin-top:100px ;
+    #section6 #s6{
+        font-size:2rem;
     }
-    #section1 .c1{
-        font-size:2rem ;
-        margin-top: 100px;
-        margin-left: 50px;
+    #section6 .f6{
+        height: 705px;
+    width: 782px;
     }
-    .pic1 img{
-        margin-left: 260px;
-        height: 50%;
-        width: 43%;
+    #section6 .g6 img{
+        height: 475px;
+      width: 560px;
     }
-    #section2{
-        margin-left: 
-        170px;
-        margin-bottom: 250px;
+
+}
+@media screen and (max-width:1150px) and (min-width:1050px){
+    #section6 #s5{
+        font-size: 15px;
     }
-    #section2 .pic2 img{
-        margin-left: 80px;
-        height: 20%;
-        width: 15%;
-        margin-top: 250px;
+    #section6 #s6{
+        font-size:1.75rem;
     }
-    #section2 .pic3 img{
-        margin-left:420px;
-        height: 20%;
-        width: 15%;
+    #section6 .f6{
+        height: 566px;
+        width: 635px;
     }
-    #section2 .a2{
-        font-size: 1.5rem;
+    #section6 .g6 img{
+        height: 414px;
+      width: 482px;
+      
     }
-    #section3 .gridcontent{
-        padding-left: 20px;
-        padding-right: 20px;
+    #section6 .g6{
+        margin-top: 75px;
+        margin-left: 66px;
     }
-    .a3{
-        font-size: 2rem;
+
+}
+@media screen and (max-width:1050px) and (min-width:930px){
+    #section6 #s5{
+        font-size: 12px;
     }
-    /* #section3 .grid{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-    } */
-    #section3 .a3{
-        margin-left: 330px;
+    #section6 #s6{
+        font-size:1.5rem;
     }
-    #section3 .grid{
-        margin-left:300px;
+    #section6 .f6{
+        height: 526px;
+        width: 604px;
+    }
+    #section6 .g6 img{
+        height: 414px;
+      width: 482px;
+      
+    }
+    #section6 .g6{
+        margin-top: 56px;
+        margin-left: 56px;
+    }
+
+}
+@media screen and (max-width:930px) and (min-width:800px){
+    #section6 #s5{
+        font-size: 9px;
+    }
+    #section6 #s6{
+        font-size:1.25rem;
+    }
+    #section6 .f6{
+        height: 490px;
+        width: 509px;
+    }
+    #section6 .g6 img{
+        height: 357px;
+      width: 391px;
+      
+    }
+    #section6 .g6{
+        margin-top: 56px;
+        margin-left: 56px;
+    }
+
+}
+@media screen and (max-width:800px) and (min-width:600px){
+    
+    #section6 .c6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    #section6 #s3{
+        font-size: 15px;
+    }
+    #section6 #s4{
+        font-size:1.5rem;
+    }
+    #section6 .d6{
+        width: 245px;
+        margin-right: 83px;
+    }
+    #section6 .f6{
+        height: 405px;
+        width: 435px;
+    }
+    #section6 .g6 img{
+        height: 357px;
+      width: 391px;
+      
+    }
+    #section6 .g6{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+}
+@media screen and (max-width:600px) and (min-width:350px){
+    
+    #section6.b6{
+        font-size: 1rem;
+        text-align: right;
+        width: 85vw;
+ 
+    }
+
+    #section6 .c6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap:wrap;
+        align-items: center;
+    }
+    
+    #section6 #s3{
+        font-size: 12px;
+        margin-top: 0;
+    }
+    #section6 #s4{
+        margin-top: 0;
+        font-size:1rem;
+    }
+    #section6 .d6{
+        width: 245px;
+        margin-right: 83px;
+    }
+    #section6 .f6{
+        height: 250px;
+        width: 298px;
+        margin-right: 0px;
+    }
+    #section6 .g6 img{
+        height: 200px;
+      width: 250px;
+      
+    }
+    #section6 .g6{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+} */
+@media screen and (max-width:350px) and (min-width:10px){
+    #section4, #section5, #section6{
+        display: none!important;
+        width: 0vw;
     }
 }
-@media screen and (max-width:575px) and (min-width:520px){
-    #menu{
+
+
+
+@media screen and (max-width:1520px) and (min-width:1460px){
+    #n1{
+        margin-left: 660px;
+    }
+}
+@media screen and (max-width:1460px) and (min-width:1390px){
+    #n1{
+        margin-left: 550px;
+    }
+}
+
+@media screen and (max-width:1390px) and (min-width:1300px){
+    #n1{
         margin-left: 500px;
     }
-    .text-box h1{
-        font-size: 7rem;
-        margin-top: 83px;
+    #section2 .a2{
+        margin-left: 0;
     }
-    .text2 h3{
-        margin-left:60px;
+}
+
+@media screen and (max-width:1300px) and (min-width:1200px){
+    #n1{
+        margin-left: 400px;
+    }
+    #section2{
+        height: 40vh;
+    }
+    #section2 .a2{
+        margin-left: 0;
+        height: 130vh;
+    }
+    #section2 .b2{
         font-size: 3rem;
-        margin-top: 250px;
     }
-    #hide{
-        width: 153vw;
-        height: 80vh;
+    #PIC3{
+        margin-left: 887px;
     }
-    #section1 .a1{
-        margin-left: 207px;
+
+}
+
+@media screen and (max-width:1200px) and (min-width:1100px){
+    #n1{
+        margin-left: 300px;
     }
     #section1 .b1{
         font-size:3rem ;
-        margin-top:170px ;
     }
     #section1 .c1{
         font-size:2rem ;
-        margin-top: 80px;
-        margin-left: 10px;
     }
     .pic1 img{
-        margin-left: 240px;
-        height: 50%;
-        width: 43%;
+        /* margin-left: 320px; */
+        height: 41%;
+        width: 19%;
     }
     #section2{
-        margin-bottom: 250px;
-        margin-left:150px;
-    }
-    #section2 .pic2 img{
-        margin-left: 30px;
-        height: 20%;
-        width: 20%;
-        margin-top: 250px;
-    }
-    #section2 .pic3 img{
-        margin-left:370px;
-        height: 20%;
-        width: 20%;
+        height: 40vh;
     }
     #section2 .a2{
-        font-size: 1.6rem;
+        height: 130vh;
     }
-    #section2 a{
-        text-underline-offset: 4px;
+    #section2 .b2{
+        font-size: 3rem;
     }
-    #section3 .gridcontent{
-        padding-left: 50px;
-        padding-right: 50px;
+    #PIC3{
+        margin-left: 777px;
     }
-    .a3{
-        font-size: 2rem;
+}
+
+@media screen and (max-width:1100px) and (min-width:1000px){
+    #n1{
+        margin-left: 200px;
     }
-    #section3 .grid{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
+    #section1 .b1{
+        font-size:3rem ;
     }
-    #section3 .a3{
-        margin-left: 300px;
+    #section1 .c1{
+        font-size:2rem ;
     }
-    #section3 .grid{
-        margin-left:270px;
+    .pic1 img{
+        /* margin-left: 320px; */
+        height: 41%;
+        width: 19%;
+    }
+    #section2{
+        height: 40vh;
+    }
+    #section2 .a2{
+        height: 130vh;
+    }
+    #section2 .b2{
+        font-size: 3rem;
+    }
+    #PIC3{
+        margin-left: 737px;
+    }
+    #PIC2{
+        margin-left: 170px;
     }
     
 }
-@media screen and (max-width:520px) and (min-width:430px){
-    #menu{
-        margin-left: 380px;
+@media screen and (max-width:1100px) and (min-width:1050px){
+    #section1 .b1{
+        font-size:3rem ;
+    }
+    #section1 .c1{
+        font-size:2rem ;
+    }
+    .pic1 img{
+        /* margin-left: 320px; */
+        height: 41%;
+        width: 21%;
+    }
+    #n1{
+        margin-left: 200px;
+    }
+    #section2{
+        height: 40vh;
+    }
+    #section2 .a2{
+        height: 130vh;
+    }
+    #section2 .b2{
+        font-size: 2.75rem;
+    }
+    #PIC3{
+        margin-left: 737px;
+    }
+    #PIC2{
+        margin-left: 170px;
+    }
+    
+    
+}
+@media screen and (max-width:1050px) and (min-width:1000px){
+    #section1 .b1{
+        font-size:2.75rem ;
+    }
+    #section1 .c1{
+        font-size:1.75rem ;
+    }
+    .pic1 img{
+        /* margin-left: 320px; */
+        height: 31%;
+        width: 15%;
+    }
+    #n1{
+        margin-left: 200px;
+    }
+    #section2{
+        height: 40vh;
+    }
+    #section2 .a2{
+        height: 130vh;
+    }
+    #section2 .b2{
+        font-size: 2.75rem;
+    }
+    #PIC3{
+        margin-left: 737px;
+    }
+    #PIC2{
+        margin-left: 170px;
+    }
+    
+}
+
+
+@media screen and (max-width:1000px) and (min-width:950px){
+    #n1{
+        margin-left: 100px;
     }
     .text-box h1{
-        font-size: 7rem;
-        margin-top: 83px;
+        font-size: 11rem ;
     }
     .text2 h3{
-        margin-left:60px;
-        font-size: 2.7rem;
-        margin-top: 250px;
-    }
-    #hide{
-        width: 153vw;
-        height: 80vh;
-    }
-    #section1 .a1{
-        margin-left: 207px;
+        font-size: 4rem;
     }
     #section1 .b1{
         font-size:2.5rem ;
-        margin-top:170px ;
     }
     #section1 .c1{
         font-size:1.5rem ;
-        margin-top: 40px;
-        margin-left: 10px;
     }
     .pic1 img{
-        margin-left: 240px;
-        height: 30%;
-        width: 33%;
+        /* margin-left: 320px; */
+        height: 31%;
+        width: 15%;
     }
     #section2{
-        margin-bottom: 250px;
-        margin-left: 150px;
-    }
-    #section2 .pic2 img{
-        margin-left: 60px;
-        height: 20%;
-        width: 20%;
-        margin-top: 250px;
-    }
-    #section2 .pic3 img{
-        margin-left:320px;
-        height: 20%;
-        width: 20%;
+        height: 40vh;
     }
     #section2 .a2{
-        font-size: 1.5rem;
+        height: 130vh;
     }
-    #section2 a{
-        text-underline-offset: 4px;
+    #section2 .b2{
+        font-size: 2.75rem;
     }
-    #section3 .gridcontent{
-        padding-left: 50px;
-        padding-right: 50px;
+    #PIC3{
+        margin-left:697px;
+        height: 25%;
+        width: 15%;
     }
-    .a3{
-        font-size: 1.5rem;
-    }
-    #section3 .grid{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-    }
-    #section3 .a3{
-        margin-left: 260px;
-    }
-    #section3 .grid{
-        margin-left:240px;
+    #PIC2{
+        margin-left: 160px;
+        height: 25%;
+        width: 15%;
     }
 }
-@media screen and (max-width:430px) and (min-width:370px){
-    #menu{
-        margin-left: 280px;
+
+@media screen and (max-width:950px) and (min-width:900px){
+    #n1{
+        margin-left: 50px;
     }
     .text-box h1{
-        font-size: 6rem;
-        margin-top: 93px;
+        font-size: 9rem ;
+        margin-left: 40px;
     }
     .text2 h3{
-        margin-left:70px;
-        font-size: 2rem;
-        margin-top: 250px;
-    }
-    #hide{
-        width: 153vw;
-        height: 80vh;
-        
-    }
-    #list{
-        margin-left: 100px;
-    }
-    #section1 .a1{
-        margin-left: 207px;
+        font-size: 3.5rem;
+        margin-left: 65px;
     }
     #section1 .b1{
-        font-size:2.25rem ;
-        margin-top:190px ;
+        font-size:2.5rem ;
+        margin-left: 30px;
     }
     #section1 .c1{
-        font-size:1.25rem ;
-        margin-top: 20px;
-        margin-left: 10px;
+        font-size:1.5rem ;
+        margin-left: 30px;
     }
     .pic1 img{
-        margin-left: 190px;
-        height: 10%;
-        width: 13%;
-        position: fixed;
+        /* margin-left: 320px; */
+        height: 31%;
+        width: 15%;
+    }
+    .a1{
+        margin-left: 0px; 
     }
     #section2{
-        margin-bottom: 250px;
-        margin-left: 150px;
-    }
-    #section2 .pic2 img{
-        margin-left: 40px;
-        height: 18%;
-        width: 22%;
-        margin-top: 250px;
-    }
-    #section2 .pic3 img{
-        margin-left:280px;
-        height: 18%;
-        width:22%;
+        height: 40vh;
     }
     #section2 .a2{
-        font-size: 1.3rem;
+        height: 130vh;
     }
-    #section2 a{
-        text-underline-offset: 3px;
+    #section2 .b2{
+        font-size: 2.75rem;
     }
-    #section3 .gridcontent{
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 50px;
+    #PIC3{
+        margin-left:697px;
+        height: 25%;
+        width: 15%;
+        margin-top: 75px;
     }
-    .a3{
-        font-size: 1.5rem;
-    }
-    #section3 .grid{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-    }
-    #section3 .a3{
-        margin-left: 280px;
-    }
-    #section3 .grid{
-        margin-left:250px;
-    }
-    #section3 .gridcontent a{
-        font-size: 0.5rem;
-        
-    }
-    #section3 .gridcontent img{
-        height: 100px;
-        width: 100px;
-
+    #PIC2{
+        margin-left: 160px;
+        height:25%;
+        width: 15%;
     }
 }
-@media screen and (max-width:370px) and (min-width:320px){
+
+@media screen and (max-width:900px) and (min-width:887px){
+    .left img{
+        margin-left:41px ;
+    }
+    .right{
+        display: none;
+        height: 0px;
+        width: 0px;
+    }
     #menu{
-        margin-left: 220px;
+        display: block;
+        right: 0;
+        margin-right:80px ;
     }
     .text-box h1{
-        font-size: 6rem;
-        margin-top: 93px;
+        font-size: 8rem ;
+        margin-left: 20px;
     }
     .text2 h3{
-        margin-left:70px;
-        font-size: 2rem;
+        font-size: 3rem;
+        margin-left: 25px;
         margin-top: 250px;
-    }
-    #hide{
-        width: 153vw;
-        height: 80vh;
     }
     #list{
         margin-left: 50px;
     }
-    #section1 .a1{
-        margin-left: 207px;
+    #section1 .b1{
+        font-size:2.5rem ;
+        margin-left: 30px;
+    }
+    #section1 .c1{
+        font-size:1.25rem ;
+        margin-left: 30px;
+    }
+    .pic1 img{
+        /* margin-left: 320px; */
+        height: 27%;
+        width: 19%;
+    }
+    .a1{
+        margin-left: 0px; 
+    }
+    #section2{
+        height: 40vh;
+    }
+    #section2 .a2{
+        height: 130vh;
+    }
+    #section2 .b2{
+        font-size: 2.5rem;
+    }
+    #PIC3{
+        margin-left:697px;
+        height: 25%;
+        width: 15%;
+        margin-top: 110px;
+    }
+    #PIC2{
+        margin-left: 160px;
+        height:25%;
+        width: 15%;
+    }
+}
+
+
+@media screen and (max-width:887px) and (min-width:867px){
+    .left img{
+        margin-left:21px ;
+    }
+    #menu{
+        display: block;
+        right: 0;
+        margin-right:120px ;
+    }
+    .text-box h1{
+        font-size: 8rem ;
+        margin-left: 05px;
+    }
+    .text2 h3{
+        font-size: 3rem;
+        margin-left: 5px;
+        margin-top: 250px;
+    }
+    #list{
+        margin-left: 50px;
     }
     #section1 .b1{
-        font-size:1.75rem ;
-        margin-top:190px ;
+        font-size:2.5rem ;
+        margin-left: 30px;
+    }
+    #section1 .c1{
+        font-size:1.25rem ;
+        margin-left: 30px;
+    }
+    .pic1 img{
+        /* margin-left: 320px; */
+        height: 27%;
+        width: 19%;
+    }
+    .a1{
+        margin-left: 0px; 
+    }
+    #section2{
+        height: 40vh;
+    }
+    #section2 .a2{
+        height: 130vh;
+    }
+    #section2 .b2{
+        font-size: 2.5rem;
+    }
+    #PIC3{
+        margin-left:647px;
+        height: 25%;
+        width: 15%;
+        margin-top: 110px;
+    }
+    #PIC2{
+        margin-left: 160px;
+        height:25%;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width:867px) and (min-width:800px){
+    .left img{
+        margin-left:21px ;
+    }
+    #menu{
+        margin-right:90px ;
+        right: 0;
+    }
+    .text-box h1{
+        font-size: 8rem ;
+        margin-left: 05px;
+        text-align: center;
+        width: 774px;
+    }
+    .text2 h3{
+        font-size: 3rem;
+        margin-left: 5px;
+        margin-top: 250px;
+        text-align: center;
+    }
+    #list{
+        margin-left: 50px;
+    }
+    #section1 .b1{
+        font-size:2.25rem ;
+        margin-left: 30px;
+    }
+    #section1 .c1{
+        font-size:1.25rem ;
+        margin-left: 30px;
+    }
+    .pic1 img{
+        /* margin-left: 320px; */
+        height: 27%;
+        width: 19%;
+    }
+    .a1{
+        margin-left: 0px; 
+        width: 100vw;
+        height: 90vh;
+    }
+    #section2{
+        height: 40vh;
+    }
+    #section2 .a2{
+        height: 130vh;
+    }
+    #section2 .b2{
+        font-size: 2.5rem;
+    }
+    #PIC3{
+        margin-left:627px;
+        height: 25%;
+        width: 15%;
+        margin-top: 150px;
+    }
+    #PIC2{
+        margin-left: 130px;
+        height:25%;
+        width: 15%;
+        margin-top: 450px;
+    }
+}
+
+@media screen and (max-width:800px) and (min-width:700px){
+    .left img{
+        margin-left:21px ;
+    }
+    #menu{
+        margin-right:90px ;
+        right: 0;
+    }
+    .text-box h1{
+        font-size: 8rem ;
+        margin-left: 35px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 674px;
+    }
+    .text2 h3{
+        font-size: 3rem;
+        margin-left: 5px;
+        margin-top: 250px;
+        text-align: center;
+    }
+    #list{
+        margin-left: 50px;
+    }
+    #section1 .b1{
+        font-size:2rem ;
+        margin-left: 30px;
     }
     #section1 .c1{
         font-size:1rem ;
+        margin-left: 90px;
+    }
+    .pic1 img{
+        /* margin-left: 320px; */
+        height: 25%;
+        width: 23%;
+    }
+    .a1{
+        margin-left: 0px; 
+        width: 100vw;
+        height: 70vh;
+    }
+    #section2{
+        height: 40vh;
+    }
+    #section2 .a2{
+        height: 130vh;
+    }
+    #section2 .b2{
+        font-size: 2.2rem;
+        margin-left: -50px;
+    }
+    #PIC3{
+        margin-left:520px;
+        height: 25%;
+        width: 23%;
+        margin-top: 150px;
+    }
+    #PIC2{
+        margin-left: 130px;
+        height:25%;
+        width: 23%;
+        margin-top: 450px;
+    }
+}
+
+@media screen and (max-width:700px) and (min-width:600px){
+    .left img{
+        margin-left:21px ;
+    }
+    #menu{
+        margin-right:50px ;
+        right: 0;
+    }
+    .text-box h1{
+        font-size: 7rem ;
+        margin-left: 40px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 574px;
+    }
+    .text2 h3{
+        font-size: 3rem;
+        margin-left: 25px;
+        margin-top: 250px;
+        text-align: center;
+    }
+    #list{
+        margin-left: 50px;
+    }
+    #section1 .b1{
+        font-size:1.75rem ;
+        margin-left: 30px;
+        
+    }
+    #section1 .c1{
+        font-size:1rem ;
+        margin-left: 20px;
+    }
+    .pic1 img{
+        margin-left: 100px;
+        height: 25%;
+        width: 23%;
+    }
+    .a1{
+        margin-left: -10px; 
+        width: 100vw;
+        height: 50vh;
+        /* margin-right: 0; */
+    }
+    #section2{
+        height: 40vh;
+        margin-left: -5px;
+        width: 100vw;
+    }
+    #section2 div .a2{
+        height: 130vh;
+        margin-left:-10px;
+        width: 100vw;
+        margin-right: -10px;
+    }
+    #section2 .b2{
+        font-size: 1.5rem;
+        margin-left: -60px;
+        margin-bottom: 450px;
+        width: 322px;
+    }
+    #PIC3{
+        margin-left:400px;
+        height: 22%;
+        width: 20%;
         margin-top: 20px;
+    }
+    #PIC2{
+        margin-left: 90px;
+        height:22%;
+        width: 20%;
+        margin-top: 220px;
+    }
+    
+}
+
+@media screen and (max-width:600px) and (min-width:500px){
+    .left img{
+        margin-left:21px ;
+    }
+    #menu{
+        margin-right:50px ;
+        right: 0;
+    }
+    .text-box h1{
+        font-size: 7rem ;
+        margin-left: 35px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 474px;
+    }
+    .text2 h3{
+        font-size: 2rem;
+        margin-left: 5px;
+        margin-top: 250px;
+        text-align: center;
+    }
+    .navbar{
+        height: 90vh;
+    }
+    #list{
+        margin-left: 50px;
+    }
+    #section1 .b1{
+        font-size:1.5rem ;
+        margin-left: 30px;
+    }
+    #section1 .c1{
+        font-size:1rem ;
+        margin-left: 20px;
+    }
+    .pic1 img{
+        margin-left: 100px;
+        height: 25%;
+        width: 23%;
+    }
+    .a1{
+        margin-left: 0px; 
+        width: 100vw;
+        height: 50vh;
+    }
+    #section2{
+        height: 40vh;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    #section2 .a2{
+        height: 130vh;
+        margin-left:10px;
+        width: 100vw;
+        margin-right: 0;
+    }
+    #section2 .b2{
+        font-size: 1.25rem;
+        margin-left: -10px;
+        margin-bottom: 450px;
+    }
+    #section2 a{
+        text-underline-offset: 3px;
+    }
+    #PIC3{
+        margin-left:370px;
+        height: 19%;
+        width: 20%;
+        margin-top: 20px;
+    }
+    #PIC2{
+        margin-left: 90px;
+        height:19%;
+        width: 20%;
+        margin-top: 220px;
+    }
+}
+
+@media screen and (max-width:500px) and (min-width:400px){
+    .left img{
+        margin-left:21px ;
+        
+    }
+    #menu{
+        margin-right:50px ;
+        right: 0;
+    }
+    .text-box h1{
+        font-size: 6rem ;
+        margin-left: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 374px;
+    }
+    .text2 h3{
+        font-size: 1.5rem;
+        margin-left: 5px;
+        margin-top: 200px;
+        text-align: center;
+    }
+    .navbar{
+        height: 80vh;
+    }
+    #list {
+        margin-left: 30px;
+        
+    }
+    #list a{
+        font-size: 1.5rem;
+    }
+        #section1 .b1{
+            font-size:1.5rem ;
+        margin-left: 30px;
+    }
+    #section1 .c1{
+        font-size:0.8rem ;
+        margin-left: 20px;
+    }
+    .pic1 img{
+        margin-left: 100px;
+        height: 20%;
+        width: 28%;
+    }
+    .a1{
+        margin-left: 0px; 
+        width: 100vw;
+        height: 50vh;
+    }
+    #section2{
+        height: 40vh;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    #section2 .a2{
+        height: 130vh;
+        margin-left:0px;
+        width: 100vw;
+        margin-right: 0;
+    }
+    #section2 .b2{
+        font-size: 1.25rem;
+        margin-left: -10px;
+        margin-bottom: 450px;
+    }
+    #section2 a{
+        text-underline-offset: 3px;
+    }
+    #PIC3{
+        margin-left:300px;
+        height: 16%;
+        width: 20%;
+        margin-top: 20px;
+    }
+    #PIC2{
+        margin-left: 50px;
+        height:16%;
+        width: 20%;
+        margin-top: 220px;
+    }
+}
+
+@media screen and (max-width:400px) and (min-width:375px){
+    .left img{
+        margin-left:21px ;
+        
+        
+    }
+    #menu{
+        margin-right:50px ;
+        right: 0;
+    }
+    .text-box h1{
+        font-size: 4rem ;
+        margin-left: 60px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 274px;
+        margin-top: 100px;
+    }
+    .text2 h3{
+        font-size: 1rem;
+        margin-left: 25px;
+        margin-top: 230px;
+        text-align: center;
+    }
+    .navbar{
+        height: 80vh;
+    }
+    #list{
+        margin-left: 30px;
+    }
+    #list a{
+        font-size: 1.5rem;
+    }
+    #section1 .b1{
+        font-size:1.5rem ;
+        margin-left: 30px;
+        margin-top: -100px;
+    }
+    #section1 .c1{
+        font-size:0.8rem ;
+        margin-left: 20px;
+    }
+    .pic1 img{
+        margin-left: 100px;
+        height: 20%;
+        width: 28%;
+        position: sticky;
+        margin-top: 8px;
+    }
+    .a1{
+        margin-left: 0px; 
+        width: 100vw;
+        height: 50vh;
+        margin-top: -30px;
+    }
+    #section2{
+        height: 40vh;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    #section2 .a2{
+        height: 130vh;
+        margin-left:0px;
+        width: 100vw;
+        margin-right: 0;
+    }
+    #section2 .b2{
+        font-size: 1.25rem;
+        margin-left: -10px;
+        margin-bottom: 592px;
+    }
+    #section2 a{
+        text-underline-offset: 3px;
+    }
+    #PIC3{
+        margin-left:200px;
+        position: sticky;
+        height: 12%;
+        width: 20%;
+        margin-top: -107px;
+    }
+    #PIC2{
+        position: sticky;
+        margin-left: 113px;
+        height:12%;
+        width: 20%;
+        margin-top: -103px;
+    }
+}
+
+@media screen and (max-width:375px) and (min-width:320px){
+    .left img{
+        margin-left:21px ;
+
+    }
+    #menu{
+        margin-right:20px ;
+        margin-bottom: 5px;
+        right: 0;
+    }
+    .text-box h1{
+        font-size: 3.75rem ;
+        margin-left: 60px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 224px;
+        margin-top: 100px;
+    }
+    .text2 h3{
+        font-size: 1rem;
+        margin-left: 25px;
+        margin-top: 230px;
+        text-align: center;
+    }
+    .navbar{
+        height: 80vh;
+    }
+    #list{
+        margin-left: 30px;
+    }
+    #list a{
+        font-size: 1.5rem;
+    }
+    #section1 .b1{
+        font-size:1.25rem ;
+        margin-left: 30px;
+        margin-top: -50px;
+    }
+    #section1 .c1{
+        font-size:0.6rem ;
+        margin-left: 20px;
+    }
+    .pic1 img{
+        margin-left: 100px;
+        height: 20%;
+        width: 28%;
+        position: sticky;
+        margin-top: 8px;
+    }
+    .a1{
+        margin-left: 0px; 
+        width: 100vw;
+        height: 35vh;
+        margin-top: -30px;
+    }
+    #section2{
+        height: 40vh;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    #section2 .a2{
+        height: 130vh;
+        margin-left:0px;
+        width: 100vw;
+        margin-right: 0;
+    }
+    #section2 .b2{
+        font-size: 1.25rem;
+        margin-left: 0px;
+        margin-bottom: 592px;
+    }
+    #section2 a{
+        text-underline-offset: 3px;
+    }
+    #PIC3{
+        margin-left:170px;
+        position: sticky;
+        height: 12%;
+        width: 20%;
+        margin-top: -107px;
+    }
+    #PIC2{
+        position: sticky;
+        margin-left: 100px;
+        height:12%;
+        width: 20%;
+        margin-top: -103px;
+    }
+}
+
+@media screen and (max-width:320px) and (min-width:260px){
+    .left img{
+        margin-left:21px ;
+        height: 25px;
+        width: 70px;
+        
+    }
+    .bar{
+        width: 30px;
+    }
+
+    #menu{
+        margin-right:20px ;
+        /* margin-bottom: 150px; */
+        margin-top: 40px;
+        right: 0;
+    }
+    .text-box h1{
+        font-size: 3.75rem ;
+        margin-left: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 224px;
+        margin-top: 100px;
+    }
+    .text2 h3{
+        font-size: 1rem;
+        margin-left: 15px;
+        margin-top: 230px;
+        text-align: center;
+    }
+    .navbar{
+        height: 80vh;
+    }
+    #list{
+        margin-left: 10px;
+    }
+    #list a{
+        font-size: 1.25rem;
+    }
+    #section1 .b1{
+        font-size:1rem ;
+        margin-left: 30px;
+        margin-top: -50px;
+    }
+    #section1 .c1{
+        font-size:0.6rem ;
+        margin-left: 20px;
+    }
+    .pic1 img{
+        margin-left: 50px;
+        height: 28%;
+        width: 28%;
+        position: sticky;
+        margin-top: 8px;
+    }
+    .a1{
+        margin-left: 0px; 
+        width: 100vw;
+        height: 35vh;
+        margin-top: -30px;
+    }
+    #section2{
+        height: 40vh;
+        margin-left: 0px;
+        margin-right: 0;
+    }
+    #section2 .a2{
+        height: 130vh;
+        margin-left:0px;
+        width: 100vw;
+        margin-right: 0;
+    }
+    #section2 .b2{
+        font-size: 1rem;
+        margin-left: 0px;
+        margin-bottom: 592px;
+    }
+    #section2 a{
+        text-underline-offset: 3px;
+    }
+    #PIC3{
+        margin-left:150px;
+        position: sticky;
+        height: 12%;
+        width: 22%;
+        margin-top: -107px;
+    }
+    #PIC2{
+        position: sticky;
+        margin-left: 90px;
+        height:12%;
+        width: 22%;
+        margin-top: -103px;
+    }
+}
+
+@media screen and (max-width:260px) and (min-width:200px){
+    .left img{
+        margin-left:21px ;
+        height: 25px;
+        width: 70px;
+        
+    }
+    .bar{
+        width: 30px;
+    }
+    
+    #menu{
+        margin-right:20px ;
+        /* margin-bottom: 150px; */
+        margin-top: 40px;
+        right: 0;
+    }
+    .text-box h1{
+        font-size: 2.75rem ;
+        margin-left: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 174px;
+        margin-top: 100px;
+    }
+    .text2 h3{
+        font-size: 0.85rem;
+        margin-left: 15px;
+        margin-top: 180px;
+        text-align: center;
+    }
+    .navbar{
+        height: 80vh;
+    }
+    #list{
+        margin-left: 0px;
+    }
+    #list a{
+        font-size: 1rem;
+    }
+    #section1 .b1{
+        font-size:0.8rem ;
+        margin-left: 10px;
+        margin-top: -50px;
+    }
+    #section1 .c1{
+        font-size:0.5rem ;
         margin-left: 10px;
     }
     .pic1 img{
-        margin-left: 170px;
-        height: 10%;
-        width: 15%;
-        position: fixed;
+        margin-left: 50px;
+        height: 28%;
+        width: 28%;
+        position: sticky;
+        margin-top: 8px;
+    }
+    .a1{
+        margin-left: 0px; 
+        width: 100vw;
+        height: 25vh;
+        margin-top: -30px;
     }
     #section2{
-        margin-bottom: 250px;
-        margin-left: 150px;
-    }
-    #section2 .pic2 img{
-        margin-left: 40px;
-        height: 18%;
-        width: 22%;
-        margin-top: 250px;
-    }
-    #section2 .pic3 img{
-        margin-left:280px;
-        height: 18%;
-        width:22%;
+        height: 10vh;
+        margin-left: 0px;
+        margin-right: 0;
+        /* margin-top: -100px; */
+        margin-top: 150px;
     }
     #section2 .a2{
-        font-size: 1.3rem;
-    }
-    #section2 a{
-        text-underline-offset: 3px;
-    }
-    #section3 .gridcontent{
-        padding-left: 50px;
-        padding-right: 50px;
-        padding-top: 50px;
-    }
-    .a3{
-        font-size: 1.5rem;
-    }
-    #section3 .grid{
-        grid-template-columns: auto auto;
-        grid-template-rows: auto auto;
-    }
-    #section3 .a3{
-        margin-left: 246px;
-    }
-    #section3 .grid{
-        margin-left:210px;
-    }
-    #section3 .gridcontent a{
-        font-size: 0.5rem;
+        height: 25vh;
+        margin-left:0px;
+        width: 100vw;
+        margin-right: 0;
         
     }
-    #section3 .gridcontent img{
-        height: 100px;
-        width: 100px;
-
-    }
-}
-
-@media screen and (max-width:356px) and (min-width:320px){
-    #section2{
-        margin-bottom: 250px;
-    }
-    #section2 .pic2 img{
-        margin-left: 30px;
-        height: 15%;
-        width: 22%;
-        margin-top: 250px;
-    }
-    #section2 .pic3 img{
-        margin-left:230px;
-        height: 15%;
-        width:22%;
-    }
-    #section2 .a2{
-        font-size: 1rem;
+    #section2 .b2{
+        font-size: 0.75rem;
+        margin-left: 0px;
+        margin-bottom: 0px;
     }
     #section2 a{
         text-underline-offset: 3px;
     }
+    #PIC3{
+        margin-left:100px;
+        position: sticky;
+        height: 12%;
+        width: 30%;
+        margin-top: -90px;
+    }
+    #PIC2{
+        position: sticky;
+        margin-left: 50px;
+        height:12%;
+        width: 30%;
+        margin-top: -142px;
+    }
 }
+
+/* mediaqueries for grid */
+
+    @media screen and (max-width:1300px) and (min-width:1100px){
+        #section3{
+            margin-top: 591px;
+        }
+        #section3 .a3 p{
+            font-size: 2.8rem ;
+        }
+        #section3 .gridcontent{
+            padding-left: 60px;
+            padding-right: 60px;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width:1100px) and (min-width:900px){
+        #section3{
+            margin-top: 591px;
+        }
+        #section3 .a3 p{
+            font-size: 2.5rem ;
+        }
+        #section3 .gridcontent{
+            padding-left: 40px;
+            padding-right: 40px;
+            text-align: center;
+        }
+    }
+    @media screen and (max-width:900px) and (min-width:700px){
+        #section3{
+            margin-top: 591px;
+        }
+        #section3 .a3 p{
+            font-size: 2rem ;
+        }
+        #section3 .gridcontent{
+            padding-left: 20px;
+            padding-right: 20px;
+            text-align: center;
+        }
+        #section3 .gridcontent a:hover{
+            text-underline-offset: 2px;
+        }
+        #section3 .gridcontent a{
+            font-size: 1rem;
+        }
+    }
+    @media screen and (max-width:700px) and (min-width:500px){
+        #section3{
+            margin-top: 211px;
+            width: 100vw
+        }
+        #section3 .a3 p{
+            font-size: 2rem ;
+        }
+        #section3 .grid{
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            
+        }
+        #section3 .gridcontent{
+            padding: 30px;
+            text-align: center;
+        }
+        #section3 .gridcontent a:hover{
+            text-underline-offset: 2px;
+        }
+        #section3 .gridcontent a{
+            font-size: 1rem;
+        }
+    }
+    @media screen and (max-width:500px) and (min-width:300px){
+        #section3{
+            margin-top: 72px;
+            width: 100vw
+        }
+        #section3 .a3 p{
+            font-size: 1.5rem ;
+        }
+        #section3 .grid{
+            grid-template-columns: auto auto;
+            grid-template-rows: auto auto;
+            
+        }
+        #section3 .gridcontent{
+            padding: 10px;
+            text-align: center;
+        }
+        #section3 .gridcontent a:hover{
+            text-underline-offset: 2px;
+        }
+        #section3 .gridcontent a{
+            font-size: 0.5rem;
+        }
+    }
+    @media screen and (max-width:300px) and (min-width:100px){
+        #section3{
+            margin-top: 72px;
+            width: 100vw
+        }
+        #section3 .a3 p{
+            font-size: 1rem ;
+        }
+        #section3 .grid{
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto auto;
+            
+        }
+        #section3 .gridcontent{
+            padding: 10px;
+            text-align: center;
+        }
+        #section3 .gridcontent a:hover{
+            text-underline-offset: 2px;
+        }
+        #section3 .gridcontent a{
+            font-size: 0.5rem;
+        }
+    }
