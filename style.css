@@ -4,7 +4,7 @@ body{
     overflow-x: hidden;
     
 }
-#section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11, #section12, #section13, #section14, #section15, #section16, #access
+/* #section4, #section5, #section6, #section7, #section8, #section9, #section10, #section11, #section12, #section13, #section14, #section15, #section16, #access
 #back-to-top-btn{
     display: none!important;
 }
@@ -15,7 +15,7 @@ body{
 #section13{
     display: none;}
 #section11{
-    display: none;}
+    display: none;} */
 
 /*  custom scrollbar */
 
@@ -43,7 +43,7 @@ body{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display: none!important;
+    display: block;
     padding: 10px 20px;
     background-color: #32eb04;
     color:black;
@@ -60,7 +60,7 @@ body{
     left: 20px;
     height: 50px;
     width: 50px;
-    display: none;
+    display: block;
     padding: 3px 17px;
     background-color: white;
     border: 2px solid black;
@@ -1057,7 +1057,7 @@ margin-left: 130px;
     width: 120px;
 }
 #section11{
-    display: none;
+    display: flex;
     height: 135vh;
     width: 100vw;
     flex-direction: column;
@@ -1274,7 +1274,7 @@ border-bottom: 1px solid #909090;
 
 /* section13:Dive in section */
 #section13{
-    display: none;
+    display: flex;
     margin-top: 200px;
     height: 110vh;
 
@@ -1347,7 +1347,7 @@ text-decoration-color: blue;
 /* section14:spinxanimation */
 
 #section14{
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -1476,7 +1476,7 @@ text-decoration-color: blue;
 /* section15  */
 #section15{
     margin-top: 200px;
-    display: none;
+    display: flex;
     justify-content: space-around;
 }
 
