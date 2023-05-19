@@ -376,32 +376,32 @@ show3.addEventListener("click", function() {
 
 //8. horizontal sliding of images when scrolling up and down
 
-// function Scroll() {
-//   var carousel = document.getElementById('slide2');
-//   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+function Scroll() {
+  var carousel = document.getElementById('slide2');
+  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-//   if (scrollPosition > Scroll.lastScrollPosition) {
-//     // Scrolling down
-//     carousel.style.transform = 'translateX(-10%)';
+  if (scrollPosition > Scroll.lastScrollPosition) {
+    // Scrolling down
+    carousel.style.transform = 'translateX(-10%)';
     
-//   }
-//    else if(scrollPosition< Scroll.lastScrollPosition) {
-//     carousel.style.transform = 'translateX(-15%)';
-//   }
-//    else if(scrollPosition> ((Scroll.lastScrollPosition)+('150px'))) {
-//     carousel.style.transform = 'translateX(10%)';
-//   }
-//   else {
-//     // Scrolling up
-//     var scrollDistance = scrollPosition - Scroll.lastScrollPosition;
-//   }
-// }
+  }
+   else if(scrollPosition< Scroll.lastScrollPosition) {
+    carousel.style.transform = 'translateX(-15%)';
+  }
+   else if(scrollPosition> ((Scroll.lastScrollPosition)+('150px'))) {
+    carousel.style.transform = 'translateX(10%)';
+  }
+  else {
+    // Scrolling up
+    var scrollDistance = scrollPosition - Scroll.lastScrollPosition;
+  }
+}
 
-// // Initial scroll position
-// Scroll.lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+// Initial scroll position
+Scroll.lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-// // Attach the scroll event listener
-// window.addEventListener('scroll', Scroll);
+// Attach the scroll event listener
+window.addEventListener('scroll', Scroll);
 
 function Scroll() {
   var carousel = document.getElementById('slide2');
