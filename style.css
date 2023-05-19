@@ -1047,7 +1047,7 @@ margin-left: 130px;
     width: 120px;
 }
 #section11{
-    display: flex;
+    display: none;
     height: 135vh;
     width: 100vw;
     flex-direction: column;
@@ -1264,7 +1264,7 @@ border-bottom: 1px solid #909090;
 
 /* section13:Dive in section */
 #section13{
-    display: flex;
+    display: none;
     margin-top: 200px;
     height: 110vh;
 
@@ -1337,7 +1337,7 @@ text-decoration-color: blue;
 /* section14:spinxanimation */
 
 #section14{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -1466,7 +1466,7 @@ text-decoration-color: blue;
 /* section15  */
 #section15{
     margin-top: 200px;
-    display: flex;
+    display: none;
     justify-content: space-around;
 }
 
