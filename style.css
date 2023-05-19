@@ -43,7 +43,7 @@ body{
     position: fixed;
     bottom: 20px;
     right: 20px;
-    display: none;
+    display: none!important;
     padding: 10px 20px;
     background-color: #32eb04;
     color:black;
@@ -60,7 +60,7 @@ body{
     left: 20px;
     height: 50px;
     width: 50px;
-    display: block;
+    display: none;
     padding: 3px 17px;
     background-color: white;
     border: 2px solid black;
