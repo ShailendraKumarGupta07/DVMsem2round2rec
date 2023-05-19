@@ -14,6 +14,6 @@ function onClickMenu(){
     x.style.marginLeft="0";
     // x.style.position="fixed"
     x.style.paddingBottom="10px";
-    x.style.right="-50%";
+    x.style.right="0";
   }
 }
