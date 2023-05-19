@@ -504,15 +504,15 @@ Scroll7.lastScrollPosition = window.pageYOffset|| document.documentElement.scrol
 window.addEventListener('scroll', Scroll7);
 
 //11.direct top button (code copied from the previous task of job listing app)
-function toggleBackToTopBtn() {
-  const backToTopBtn = document.getElementById('back-to-top-btn');
+// function toggleBackToTopBtn() {
+//   const backToTopBtn = document.getElementById('back-to-top-btn');
 
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    backToTopBtn.style.display = 'block';
-  } else {
-    backToTopBtn.style.display = 'none';
-  }
-}
+//   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+//     backToTopBtn.style.display = 'block';
+//   } else {
+//     backToTopBtn.style.display = 'none';
+//   }
+// }
 
 // function for calling when scrolling 
 window.addEventListener('scroll', toggleBackToTopBtn);
