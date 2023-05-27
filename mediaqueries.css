@@ -1,4 +1,4 @@
-/* global media queries */
+/* global media ueries */
 
 @media screen and (max-width:900px) and (min-width:0px){
     .right{
@@ -213,6 +213,21 @@
         margin-top: 20px;
         margin-left: 20px;
     }
+    /* .fixed1{
+        position: sticky!important;
+    } */
+    .adjustments{
+        margin-left: 0;
+    }
+    .adjustments4{
+        margin-left: 0!important;
+    }
+    #section9{
+        height: 150vh;
+    }
+    #section11{
+        height: 50vh;
+    }
 
 }
 @media screen and (max-width:350px) and (min-width:200px){
@@ -262,6 +277,12 @@
     #section4 .g4{
         margin-top: 20px;
         margin-left: 20px;
+    }
+    #section9{
+        height: 150vh;
+    }
+    #section11{
+        height: 40vh;
     }
 
 }
@@ -759,7 +780,7 @@
 
     #section9 #f12{
         font-size: 1rem;
-        margin-left: 15px;
+        margin-left: 0px;
     }
     #section9 .j12 .h12 {
         margin-top: 27px;
