@@ -11,6 +11,7 @@ var fixed = fixednav.offsetTop;
 function myFunction() {
   if (window.pageYOffset > fixed) {
     fixednav.classList.add("fixed");
+    // fixednav.classList.remove("fixed5");
     document.getElementById("image").classList.add("size");
     document.getElementById("image").src="images/spinx2.png";
     document.getElementById("n1").classList.add("size");
@@ -33,7 +34,7 @@ function myFunction() {
     
   } else {
     fixednav.classList.remove("fixed");
-    fixednav.classList.add("fixed3");
+    // fixednav.classList.add("fixed5");
     document.getElementById("image").classList.remove("size");
     document.getElementById("image").src="images/spinx-logo-white.png";
     document.getElementById("n1").classList.remove("size");
@@ -116,10 +117,11 @@ a1.addEventListener('mouseleave', () => {
 });
 
 
-//5.fixing of divs
+//5.fixing of divs( i have not used scroll height due to which the headers are getting fixed according to desktop view in mobile and tab view)
 
 // project1
 const myDiv = document.getElementById('d4');
+scrollheight= myDiv.scrollHeight
 const heightToFix = 2936;
 
 window.addEventListener('scroll',function(){
