@@ -1,3 +1,6 @@
+window.onbeforeunload = function(){
+  window.scrollTo(0,0);
+}
 // 1.function to keep navbar fixed
 
 window.onscroll = function() {myFunction()};
@@ -20,14 +23,17 @@ function myFunction() {
     document.getElementById("link4").classList.add("color");
     document.getElementById("n5").classList.add("size");
     document.getElementById("n6").classList.add("size1");
-    document.getElementById("menu").classList.add("size")
+    document.getElementById("menu").classList.add("size");
+    document.getElementById("down1").style.color="black";
+    document.getElementById("down2").style.color="black";
+
     
    
     
     
   } else {
     fixednav.classList.remove("fixed");
-
+    fixednav.classList.add("fixed3");
     document.getElementById("image").classList.remove("size");
     document.getElementById("image").src="images/spinx-logo-white.png";
     document.getElementById("n1").classList.remove("size");
@@ -40,27 +46,30 @@ function myFunction() {
     document.getElementById("link4").classList.remove("color");
     document.getElementById("n5").classList.remove("size");
     document.getElementById("n6").classList.remove("size1");
-    document.getElementById("menu").classList.remove("size")
+    document.getElementById("menu").classList.remove("size");
+    document.getElementById("down1").style.color="white";
+    document.getElementById("down2").style.color="white";
     
   }
 }
 
 
 // 3.divein image part(  WAS UNABLE TO ADD THE SLOW TRANSITION OPACITY EFFECT WHEN IMAGE IS DISPLAYED)
-const link1 = document.querySelector('.l1');
-const link2 = document.querySelector('.l2');
-const image1 = document.querySelector('.im1');
-const image2 = document.querySelector('.im2');
-const image3 = document.querySelector('.im3');
+const link1 = document.querySelector('#l1');
+const link2 = document.querySelector('#l2');
+const image1 = document.querySelector('#im1');
+const image2 = document.querySelector('#im2');
+const image3 = document.querySelector('#im3');
 
 link1.addEventListener('mouseenter', () => {
   image2.style.display = 'block';
-  image1.style.display='none'                      
+  image1.style.display='none';
+                     
 });
 
 link1.addEventListener('mouseleave', () => {
   image2.style.display = 'none';
-  image1.style.display='block'
+  image1.style.display='block';
 });
 
 link2.addEventListener('mouseenter', () => {
@@ -83,11 +92,27 @@ const a3 = a1.querySelector('.b9');
 a1.addEventListener('mouseenter', () => {
   a2.style.animationPlayState = 'running';
   a3.style.animationPlayState = 'running';
+  document.getElementById("f9").style.width="75px";
+  document.getElementById("f9").style.transform="scaleX(2.3)";
+  document.getElementById("f9").style.transform="translateX(10px)";
+  document.getElementById("g9").style.transform="translateY(-53px) translateX(65px) rotate(45deg)";
+  document.getElementById("h9").style.transform="translateY(-81px) translateX(65px) rotate(-45deg)";
+  document.getElementById("g9").style.transition=" all 0.4s ease";
+  document.getElementById("h9").style.transition=" all 0.4s ease";
+  document.getElementById("f9").style.transition=" all 0.4s ease";
+
 });
 
 a1.addEventListener('mouseleave', () => {
  a2.style.animationPlayState = 'paused';
  a3.style.animationPlayState = 'paused';
+ document.getElementById("f9").style.width="50px";
+ document.getElementById("f9").style.transform="scaleX(1)";
+ document.getElementById("f9").style.transform="translateX(-5px)";
+ document.getElementById("g9").style.transform="translateY(-53px) translateX(28px) rotate(45deg)";
+ document.getElementById("g9").style.transition=" all 0.4s ease";
+ document.getElementById("h9").style.transition=" all 0.4s ease";
+ document.getElementById("h9").style.transform="translateY(-81px) translateX(28px) rotate(-45deg)";
 });
 
 
@@ -200,12 +225,16 @@ div.addEventListener("click", function() {
     dropdown.style.display = "flex";
     document.getElementById("section9").style.height="220vh";
     dropdown.classList.add("size3");
+
   } else {
     dropdown.style.display = "none";
     document.getElementById("section9").style.height="180vh";
     dropdown.classList.remove("size3");
+
   }
 });
+
+
 
 // -------
 
@@ -376,39 +405,39 @@ show3.addEventListener("click", function() {
 
 //8. horizontal sliding of images when scrolling up and down
 
-function Scroll() {
-  var carousel = document.getElementById('slide2');
-  var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+// function Scroll() {
+//   var carousel = document.getElementById('slide2');
+//   var scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-  if (scrollPosition > Scroll.lastScrollPosition) {
-    // Scrolling down
-    carousel.style.transform = 'translateX(-10%)';
+//   if (scrollPosition > Scroll.lastScrollPosition) {
+//     // Scrolling down
+//     carousel.style.transform = 'translateX(-10%)';
     
-  }
-   else if(scrollPosition< Scroll.lastScrollPosition) {
-    carousel.style.transform = 'translateX(-15%)';
-  }
-   else if(scrollPosition> ((Scroll.lastScrollPosition)+('150px'))) {
-    carousel.style.transform = 'translateX(10%)';
-  }
-  else {
-    // Scrolling up
-    var scrollDistance = scrollPosition - Scroll.lastScrollPosition;
-  }
-}
+//   }
+//    else if(scrollPosition< Scroll.lastScrollPosition) {
+//     carousel.style.transform = 'translateX(-15%)';
+//   }
+//    else if(scrollPosition> ((Scroll.lastScrollPosition)+('150px'))) {
+//     carousel.style.transform = 'translateX(10%)';
+//   }
+//   else {
+//     // Scrolling up
+//     var scrollDistance = scrollPosition - Scroll.lastScrollPosition;
+//   }
+// }
 
-// Initial scroll position
-Scroll.lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+// // Initial scroll position
+// Scroll.lastScrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
-// Attach the scroll event listener
-window.addEventListener('scroll', Scroll);
+// // Attach the scroll event listener
+// window.addEventListener('scroll', Scroll);
 
 function Scroll() {
   var carousel = document.getElementById('slide2');
   var scrollPosition = window.pageYOffset ;
   var scrollDistance = scrollPosition - Scroll.lastScrollPosition; //(scrollDistance can be positive or negative)
 
-  carousel.style.transform = 'translateX(' + (0.3*(-scrollDistance))  +'px)';
+  carousel.style.transform = 'translateX(' + (0.3*(-scrollDistance)) +'px)';
   
 }
 
@@ -422,7 +451,7 @@ function Scroll2() {
   var scrollPosition2 = window.pageYOffset 
   var scrollDistance2 = scrollPosition2 - Scroll2.lastScrollPosition; //(scrollDistance can be positive or negative)
 
-  carousel2.style.transform = 'translateX(' + (0.2*(scrollDistance2))  +'px)';
+  carousel2.style.transform = 'translateX(' + (0.3*(scrollDistance2)) +'px)';
 
 }
 
@@ -436,7 +465,7 @@ function Scroll3() {
   var scrollPosition3 = window.pageYOffset 
   var scrollDistance3 = scrollPosition3 - Scroll3.lastScrollPosition; //(scrollDistance can be positive or negative)
 
-  carousel3.style.transform = 'translateX(' + (0.3*(-scrollDistance3))  +'px)';
+  carousel3.style.transform = 'translateX(' + (0.3*(-scrollDistance3)) +'px)';
 
 }
 
@@ -525,3 +554,338 @@ backToTopBtn.addEventListener('click', () => {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 });
+
+
+// 12.Custom Cursor
+var cursor = document.querySelector('#cursor');
+
+document.addEventListener('mousemove', e => {
+    cursor.setAttribute("style", "top: "+(e.pageY - 7.5)+"px; left: "+(e.pageX - 7.5)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor.classList.add("click");
+
+    setTimeout(() => {
+        cursor.classList.remove("click");
+    }, 500)
+})
+var cursor2 = document.querySelector('#cursor2');
+
+document.addEventListener('mousemove', e => {
+    cursor2.setAttribute("style", "top: "+(e.pageY - 25)+"px; left: "+(e.pageX - 25)+"px;")
+})
+
+document.addEventListener('click', () => {
+    cursor2.classList.add("click");
+
+    setTimeout(() => {
+        cursor2.classList.remove("click");
+    }, 500)
+}
+)
+
+
+
+// document.querySelector("a").addEventListener('mouseenter', () => {
+// cursor.classList.add('linkanimation');
+// cursor2.classList.add('linkanimation2');
+
+
+
+// });
+// document.querySelector("a").addEventListener('mouseleave', () => {
+//   cursor2.classList.remove('linkanimation2');
+//   cursor.classList.remove('linkanimation');
+
+// });
+
+
+var anchorlink = document.getElementsByTagName('a');
+
+
+for (var i = 0; i < anchorlink.length; i++) {
+  anchorlink[i].addEventListener('mouseover', () =>{
+    cursor.classList.add('linkanimation');
+    cursor2.classList.add('linkanimation2');
+  });
+  
+  
+  anchorlink[i].addEventListener('mouseout', () =>{
+    cursor.classList.remove('linkanimation');
+    cursor2.classList.remove('linkanimation2');
+  });
+}
+var buttons = document.getElementsByTagName('button');
+
+
+for (var i = 0; i < buttons.length; i++) {
+  buttons[i].addEventListener('mouseover', () =>{
+    cursor.classList.add('linkanimation');
+    cursor2.classList.add('linkanimation2');
+  });
+  
+  
+  buttons[i].addEventListener('mouseout', () =>{
+    cursor.classList.remove('linkanimation');
+    cursor2.classList.remove('linkanimation2');
+  });
+}
+
+var images = document.getElementsByTagName('img');
+var eye = document.getElementById('eye');
+
+for (var i = 0; i < images.length; i++) {
+  images[i].addEventListener('mouseover', () =>{
+    // cursor.classList.add('linkanimation3');
+    eye.style.display="block";
+    cursor2.classList.add('linkanimation2');
+});
+
+
+images[i].addEventListener('mouseout', () =>{
+  eye.style.display="none";
+    cursor2.classList.remove('linkanimation2');
+  });
+}
+
+document.querySelector("#l12").addEventListener('mouseenter', () => {
+  cursor.classList.add('linkanimation');
+  cursor2.classList.add('linkanimation2');
+  
+  
+  
+  });
+  document.querySelector("#l12").addEventListener('mouseleave', () => {
+    cursor2.classList.remove('linkanimation2');
+    cursor.classList.remove('linkanimation');
+  
+  });
+
+
+  
+document.querySelector("#n12").addEventListener('mouseenter', () => {
+  cursor.classList.add('linkanimation');
+  cursor2.classList.add('linkanimation2');
+  
+  
+  
+  });
+  document.querySelector("#n12").addEventListener('mouseleave', () => {
+    cursor2.classList.remove('linkanimation2');
+    cursor.classList.remove('linkanimation');
+  
+  });
+
+
+document.querySelector("#p12").addEventListener('mouseenter', () => {
+  cursor.classList.add('linkanimation');
+  cursor2.classList.add('linkanimation2');
+  
+  
+  
+  });
+  document.querySelector("#p12").addEventListener('mouseleave', () => {
+    cursor2.classList.remove('linkanimation2');
+    cursor.classList.remove('linkanimation');
+  
+  });
+
+
+document.querySelector("#s12").addEventListener('mouseenter', () => {
+  cursor.classList.add('linkanimation');
+  cursor2.classList.add('linkanimation2');
+  
+  
+  
+  });
+  document.querySelector("#s12").addEventListener('mouseleave', () => {
+    cursor2.classList.remove('linkanimation2');
+    cursor.classList.remove('linkanimation');
+  
+  });
+
+
+document.querySelector("#u12").addEventListener('mouseenter', () => {
+  cursor.classList.add('linkanimation');
+  cursor2.classList.add('linkanimation2');
+  
+  
+  
+  });
+  document.querySelector("#u12").addEventListener('mouseleave', () => {
+    cursor2.classList.remove('linkanimation2');
+    cursor.classList.remove('linkanimation');
+  
+  });
+
+
+document.querySelector("#w12").addEventListener('mouseenter', () => {
+  cursor.classList.add('linkanimation');
+  cursor2.classList.add('linkanimation2');
+  
+  
+  
+  });
+  document.querySelector("#w12").addEventListener('mouseleave', () => {
+    cursor2.classList.remove('linkanimation2');
+    cursor.classList.remove('linkanimation');
+  
+  });
+  
+
+document.querySelector("#section4").addEventListener('mouseover', () => {
+  eye.style.display="block";
+  cursor2.classList.add('linkanimation2');
+  cursor.classList.add('linkanimation3');
+  
+  
+  
+  });
+  document.querySelector("#section4").addEventListener('mouseout', () => {
+    cursor2.classList.remove('linkanimation2');
+    eye.style.display="none";
+    cursor.classList.remove('linkanimation3');
+  
+  });
+  
+  
+
+document.querySelector("#section5").addEventListener('mouseover', () => {
+  eye.style.display="block";
+  cursor2.classList.add('linkanimation2');
+  cursor.classList.add('linkanimation3');
+  
+  
+  
+  });
+  document.querySelector("#section5").addEventListener('mouseout', () => {
+    cursor2.classList.remove('linkanimation2');
+    eye.style.display="none";
+    cursor.classList.remove('linkanimation3');
+  
+  });
+  
+  
+
+document.querySelector("#section6").addEventListener('mouseover', () => {
+
+  eye.style.display="block";
+  cursor2.classList.add('linkanimation2');
+  cursor.classList.add('linkanimation3');
+  
+  
+  
+  });
+  document.querySelector("#section6").addEventListener('mouseout', () => {
+    cursor2.classList.remove('linkanimation2');
+    cursor.classList.remove('linkanimation3');
+    eye.style.display="none";
+  
+  });
+  
+  document.querySelector("#l13").addEventListener('mouseenter', () => {
+    cursor.classList.add('linkanimation');
+    cursor2.classList.add('linkanimation2');
+    
+    
+    
+    });
+    document.querySelector("#l13").addEventListener('mouseleave', () => {
+      cursor2.classList.remove('linkanimation2');
+      cursor.classList.remove('linkanimation');
+    
+    });
+  
+    document.querySelector("#m13").addEventListener('mouseenter', () => {
+  cursor.classList.add('linkanimation');
+  cursor2.classList.add('linkanimation2');
+  
+  
+  
+  });
+  document.querySelector("#m13").addEventListener('mouseleave', () => {
+    cursor2.classList.remove('linkanimation2');
+    cursor.classList.remove('linkanimation');
+  
+  });
+
+  document.querySelector("#n13").addEventListener('mouseenter', () => {
+    cursor.classList.add('linkanimation');
+    cursor2.classList.add('linkanimation2');
+    
+    
+    
+    });
+    document.querySelector("#n13").addEventListener('mouseleave', () => {
+      cursor2.classList.remove('linkanimation2');
+      cursor.classList.remove('linkanimation');
+    
+    });
+  document.querySelector("#o13").addEventListener('mouseenter', () => {
+    cursor.classList.add('linkanimation');
+    cursor2.classList.add('linkanimation2');
+    
+    
+    
+    });
+    document.querySelector("#o13").addEventListener('mouseleave', () => {
+      cursor2.classList.remove('linkanimation2');
+      cursor.classList.remove('linkanimation');
+    
+    });
+
+    document.querySelector("#section14").addEventListener('mouseenter', () => {
+      cursor.classList.add('linkanimation');
+      cursor2.classList.add('linkanimation2');
+      
+      
+      
+      });
+      document.querySelector("#section14").addEventListener('mouseleave', () => {
+        cursor2.classList.remove('linkanimation2');
+        cursor.classList.remove('linkanimation');
+      
+      });
+
+document.getElementById('learn1').addEventListener('mouseenter', () =>{
+  document.getElementById('section17').style.display="none";
+  body.style.cursor="default";
+  
+})
+
+document.getElementById('learn1').addEventListener('mouseleave', () =>{
+  document.getElementById('section17').style.display="block";
+  body.style.cursor="none";
+})
+
+document.getElementById('learn2').addEventListener('mouseenter', () =>{
+  document.getElementById('section17').style.display="none";
+  body.style.cursor="default";
+})
+
+document.getElementById('learn2').addEventListener('mouseleave', () =>{
+  document.getElementById('section17').style.display="block";
+  body.style.cursor="none";
+})
+
+document.getElementById('learn3').addEventListener('mouseenter', () =>{
+  document.getElementById('section17').style.display="none";
+  body.style.cursor="default";
+})
+
+document.getElementById('learn3').addEventListener('mouseleave', () =>{
+  document.getElementById('section17').style.display="block";
+  body.style.cursor="none";
+})
+
+
+
+
+
+
+
+
+
+
+
