@@ -284,7 +284,8 @@
     #section11{
         height: 40vh;
     }
-        .adjustments{
+    .adjustments{
+        position: absolute!important;
         margin-left: 0;
     }
     .adjustments4{
@@ -3361,7 +3362,7 @@
         right: 0;
     }
     .text-box h1{
-        font-size: 3.75rem ;
+        font-size: 3.5rem ;
         margin-left: 13px;
         text-align: center;
         justify-content: center;
