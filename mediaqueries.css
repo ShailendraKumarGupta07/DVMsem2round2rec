@@ -284,6 +284,12 @@
     #section11{
         height: 40vh;
     }
+        .adjustments{
+        margin-left: 0;
+    }
+    .adjustments4{
+        margin-left: 0!important;
+    }
 
 }
 @media screen and (max-width:1500px) and (min-width:1300px){
